@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "872100645950",
+    "project_id": "startrekassignment",
+    "storage_bucket": "startrekassignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872100645950:android:32c2365476c7c4ffe2556f",
+        "android_client_info": {
+          "package_name": "com.example.startrekassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872100645950-1gi93kq5qbqb3p74klf3i4qv9p5qfdae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7bC8eVujx41IvpLIPdRhWr9_84FJOtio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872100645950-1gi93kq5qbqb3p74klf3i4qv9p5qfdae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

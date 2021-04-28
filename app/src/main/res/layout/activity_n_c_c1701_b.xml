@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    tools:context="com.example.startrekassignment.NCC1701B">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/uss_enterprise_ncc_1701_b" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NCC-1701-B"
+                android:textColor="#F3F0F0"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registry: USS Enterprise (NCC-1701-B)"
+                android:textColor="#F8F5F5" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Class: Excelsior-class refit    Service: 2293–2329 (36 years)"
+                android:textColor="#F4F2F2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Captains: John Harriman (Alan Ruck), Demora Sulu (portrayed in Generations by Jacqueline Kim)"
+                android:textColor="#F3F0F0" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="The Enterprise-B was launched at the beginning of the film Star Trek Generations (1994). During the ship's maiden voyage, prior to it being properly fitted with essential systems, the crew encountered an energy ribbon known as the Nexus, through which James T. Kirk, captain of the 2 former Enterprise starships, NCC-1701 and NCC-1701-A, was officially declared missing and presumed dead.  The design of the Enterprise-B is nearly identical to that of the USS Excelsior, which first appeared in the 1984 film Star Trek III: The Search For Spock. Differences between the Enterprise-B and the Excelsior include: flarings on the outside of the secondary hull, additional and larger impulse engines, and slight differences between the nacelles as well as the bridge modules. Non-canon information concerning the Enterprise-B includes several licensed Star Trek novels in which Demora Sulu, daughter of Hikaru Sulu, followed Harriman as captain. There are also licensed guides, such as the Haynes Enterprise Manual, in which a list of the ship's captains includes Demora Sulu, William George, and Thomas Johnson Jr."
+                android:textColor="#EFEBEB"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

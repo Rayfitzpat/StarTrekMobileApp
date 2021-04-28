@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="218dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="App Design by:"
+        android:textColor="#F6F5F5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="307dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="12dp"
+        android:onClick="goToVector"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:srcCompat="@drawable/enterprise" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="117dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="4dp"
+        android:onClick="goCheckSubmission"
+        android:text="Liked"
+        android:textColor="#9F9C9C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="370dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/stalinist_one"
+        android:gravity="center"
+        android:text="Ray Fitzpatrick"
+        android:textColor="#F8F7F7"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="306dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/stalinist_one"
+        android:gravity="center"
+        android:text="Please click the button below to like my app"
+        android:textColor="#F3F0F0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="13dp"
+        android:onClick="goWebView"
+        android:text="Visit Star Trek.com"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="261dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goCheckRadioEngage"
+            android:text="Engage"
+            android:textColor="#EFEBEB" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goCheckRadioMakeItSo"
+            android:text="Make it so!"
+            android:textColor="#EFEBEB" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="292dp"
+        android:layout_marginLeft="292dp"
+        android:layout_marginTop="84dp"
+        android:onClick="goIndex"
+        android:text="Site Index"
+        app:backgroundTint="#717070"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

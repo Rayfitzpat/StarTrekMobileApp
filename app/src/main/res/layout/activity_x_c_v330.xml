@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    tools:context="com.example.startrekassignment.XCV330">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="203dp"
+                app:srcCompat="@drawable/uss_enterprise_xcv_330" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="XCV 330"
+                android:textColor="#F3F0F0"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registry: USS Enterprise (XCV 330)"
+                android:textColor="#F8F5F5" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Class: Declaration     Service: circa 2130s"
+                android:textColor="#F4F2F2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Captain: Unknown"
+                android:textColor="#F3F0F0" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="This USS Enterprise (XCV 330) appears in Star Trek: The Motion Picture (1979) among a series of illustrations depicting ships named Enterprise. It also appears as a model in Star Trek Into Darkness (2013), together with models of the Wright Flyer, a V-2 rocket, a Bell X-1, a Vostok-3KA capsule, a Space Shuttle orbiter, and some Star Trek universe starships. The 1979 Star Trek Spaceflight Chronology describes this &quot;first interstellar liner&quot; as a Declaration-class ship launched in 2123. Its length is given as 300 metres (980 ft), and it has a capacity of 100 crew and 850 passengers. The Star Trek Maps by New Eye Photography Editors, also published in 1979, listed this ship as a fusion drive probe that was Earth's first attempt to explore another star system. The Making of Star Trek: The Motion Picture, published in 1980, describes the ship as &quot;the very first starship U.S.S. Enterprise&quot;. A painting of this ship hangs on the wall of Earth's 602 Club in flashbacks that appeared in the Star Trek: Enterprise episode &quot;First Flight&quot; (2003)."
+                android:textColor="#EFEBEB"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

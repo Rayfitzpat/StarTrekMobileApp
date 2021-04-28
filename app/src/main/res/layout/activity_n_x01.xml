@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    tools:context="com.example.assignment1.NX01">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="203dp"
+                app:srcCompat="@drawable/enterprise_nx_01" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NX-01"
+                android:textColor="#F3F0F0"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registry: Enterprise (NX-01)"
+                android:textColor="#F8F5F5" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Class: NX     Service: 2151–2161 (10 years)"
+                android:textColor="#F4F2F2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Captain: Jonathan Archer (Scott Bakula)"
+                android:textColor="#F3F0F0" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="United Earth Starfleet's Enterprise is the main setting of Star Trek: Enterprise (2001–2005). Enterprise was the first Earth built starship capable of reaching Warp 5. The ship was commanded by Captain Jonathan Archer and played an instrumental role in the founding of several proto-Federation alliances. Enterprise had significant engagements with the Klingons, Suliban, Xindi and the Romulans and playing a central role in the &quot;Temporal Cold War.&quot; It is also featured as a model in Star Trek Into Darkness."
+                android:textColor="#EFEBEB"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

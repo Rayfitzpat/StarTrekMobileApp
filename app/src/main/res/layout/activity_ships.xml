@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0B0B"
+    android:orientation="vertical"
+    tools:context="com.example.startrekassignment.Ships">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginLeft="248dp"
+        android:layout_marginTop="88dp"
+        android:onClick="goToE1701"
+        android:text="NCC 1701"
+        android:textSize="10sp"
+        app:backgroundTint="#191919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="368dp"
+        android:onClick="goToE1701C"
+        android:text="NCC 1701-C"
+        android:textSize="10sp"
+        app:backgroundTint="#191919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="368dp"
+        android:onClick="goToE1701D"
+        android:text="NCC 1701-D"
+        android:textSize="10sp"
+        app:backgroundTint="#191919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginLeft="248dp"
+        android:layout_marginTop="372dp"
+        android:onClick="goToE1701E"
+        android:text="NCC 1701-E"
+        android:textSize="10sp"
+        app:backgroundTint="#191919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="244dp"
+        android:onClick="goToE1701A"
+        android:text="NCC 1701-A"
+        android:textSize="10sp"
+        app:backgroundTint="#191919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="244dp"
+        android:onClick="goToE1701B"
+        android:text="NCC 1701-B"
+        android:textSize="10sp"
+        app:backgroundTint="#191919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="504dp"
+        android:onClick="goToE1701F"
+        android:text="NCC 1701-F"
+        android:textSize="10sp"
+        app:backgroundTint="#191919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="504dp"
+        android:onClick="goToE1701J"
+        android:text="NCC 1701-J"
+        android:textSize="10sp"
+        app:backgroundTint="#191919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="104dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="88dp"
+        android:onClick="goToNX01"
+        android:text="NX-01"
+        app:backgroundTint="#191919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="114dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="88dp"
+        android:onClick="goToXCV330"
+        android:text="XCV 330"
+        android:textSize="12sp"
+        app:backgroundTint="#191919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="166dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="560dp"
+        android:onClick="goToE1701AKelvin"
+        android:text="1701 - A        Kelvin Timeline"
+        app:backgroundTint="#191919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="104dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/enterprise_nx_01" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="150dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="132dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uss_enterprise_ncc_1701_b" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="107dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginLeft="248dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uss_enterprise_ncc_1701" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="135dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="404dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uss_enterprise_ncc_1701_f" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="104dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginLeft="248dp"
+        android:layout_marginTop="292dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uss_enterprise_ncc_1701_e" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="102dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="292dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uss_enterprise_ncc_1701_d" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="109dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uss_enterprise_xcv_330" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="147dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="132dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uss_enterprise_ncc_1701_a" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="106dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="292dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uss_enterprise_ncc_1701_c" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="153dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="404dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uss_enterprise_ncc_1701_j" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="136dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="548dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uss_enterprise_ncc_1701_a_kelvin" />
+</androidx.constraintlayout.widget.ConstraintLayout>

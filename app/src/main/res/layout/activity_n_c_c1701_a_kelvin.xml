@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    tools:context="com.example.startrekassignment.NCC1701AKelvin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                app:srcCompat="@drawable/uss_enterprise_ncc_1701_a_kelvin" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NCC-1701-A  Kelvin Timeline"
+                android:textColor="#F3F0F0"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registry: USS Enterprise (NCC-1701)"
+                android:textColor="#F8F5F5" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service: 2258–2263 (5 years)"
+                android:textColor="#F4F2F2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Captains: Christopher Pike (Bruce Greenwood), James T. Kirk (Chris Pine)"
+                android:textColor="#F3F0F0" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="The main setting for the films Star Trek (2009), Star Trek Into Darkness (2013), and Star Trek Beyond (2016). Enterprise is shown during its construction phase at the Riverside Shipyard in Iowa during the first film. A brief shot of the NCC-1701 is seen as the shuttlecraft carrying Kirk and the new recruits into space departs the shipyard later on in the movie. At the end of Star Trek Into Darkness, Enterprise started its five-year mission. The ship was later destroyed by Krall and his alien swarm attack during the events of Star Trek Beyond.  Measurements of this ship's length have ranged from 295 meters to 910 meters. In an article about the 2009 film's visual effects, Cinefex wrote, 'The reconfigured ship was a larger vessel than previous manifestations – approximately 1,200 feet (370 m) long compared to the 947 foot (289 m) ship of the original series',[20] and quoted Industrial Light and Magic art director Alex Jaeger discussing the design's growth in size during early production of the film: 'Once we got the ship built and started putting it in environments it felt too small. The shuttle bay gave us a clear relative scale – shuttlecraft initially appeared much bigger than we had imagined – so we bumped up the Enterprise scale, which gave her a grander feel and allowed us to include more detail.'
+
+            A special feature on starships in the Blu-ray (BD) version of the movie gives the length as 2,379 feet (725 m), which would be larger than the Next Generation D and E versions, making it the largest USS Enterprise in the franchise history (not counting the pre-Federation era Enterprise (XCV 330), seen only as a model). This would result in a height of 167m, and a beam of 339m."
+                android:textColor="#EFEBEB"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

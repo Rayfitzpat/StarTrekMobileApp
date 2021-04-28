@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.startrekassignment.Captains">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="381dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/stalinist_one"
+        android:text="Notable Captains of the Enterprise"
+        android:textColor="#F6F2F2"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="136dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/archer" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="136dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/christopher_pike" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="136dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/kirk" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="136dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/spock" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="136dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/picard" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="136dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/riker" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="134dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:onClick="goToArcher"
+        android:text="Archer"
+        android:textColor="#F1EFEF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="134dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:gravity="center"
+        android:onClick="goToPike"
+        android:text="Pike"
+        android:textColor="#F1EFEF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="134dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:gravity="center"
+        android:onClick="goToKirk"
+        android:text="Kirk"
+        android:textColor="#F1EFEF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="134dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:gravity="center"
+        android:onClick="goToSpock"
+        android:text="Spock"
+        android:textColor="#F1EFEF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="134dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:gravity="center"
+        android:onClick="goToPicard"
+        android:text="Picard"
+        android:textColor="#F1EFEF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="134dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:gravity="center"
+        android:onClick="goToRiker"
+        android:text="Riker"
+        android:textColor="#F1EFEF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+</androidx.constraintlayout.widget.ConstraintLayout>

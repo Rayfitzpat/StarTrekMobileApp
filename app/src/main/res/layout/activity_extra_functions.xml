@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040404"
+    tools:context=".ExtraFunctions">
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="299dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="1dp"
+        android:onClick="goToCamera"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/camera" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="300dp"
+        android:layout_height="218dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="17dp"
+        android:onClick="goToCalandar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView32"
+        app:srcCompat="@drawable/calendar" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="304dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:onClick="goToSms"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34"
+        app:srcCompat="@drawable/sms" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="153dp"
+        android:layout_height="23dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:onClick="goToSms"
+        android:text="SmS - Email"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView35"
+        app:layout_constraintVertical_bias="0.881" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="101dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:onClick="goToCalandar"
+        android:text="Calandar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.949" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="101dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:onClick="goToCamera"
+        android:text="Camera"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:layout_constraintVertical_bias="0.961" />
+</androidx.constraintlayout.widget.ConstraintLayout>

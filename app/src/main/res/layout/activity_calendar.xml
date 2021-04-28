@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".Calendar">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="376dp"
+        android:background="#ACA5A5"
+        android:focusedMonthDateColor="#EFECEC"
+        android:selectedWeekBackgroundColor="#F3EDED"
+        android:weekNumberColor="#EFEDED"
+        android:weekSeparatorLineColor="#E1DADA" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="14sp"
+        android:text="Display Date"
+        android:textAlignment="center"
+        android:textColor="#F1EFF1"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goShared"
+        android:text="Save this Date" />
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    tools:context="com.example.startrekassignment.NCC1701J">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                app:srcCompat="@drawable/uss_enterprise_ncc_1701_j" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="NCC-1701-J"
+                android:textColor="#F3F0F0"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registry: USS Enterprise (NCC-1701-J)"
+                android:textColor="#F8F5F5" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Class: Universe     Service: 26th century"
+                android:textColor="#F4F2F2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Captain(s): Dax"
+                android:textColor="#F3F0F0" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="The &quot;Azati Prime&quot; episode of Star Trek: Enterprise involves time travel and features a scene in which Enterprise-J appears. Enterprise-J operates in a possible timeline during the 26th century. In this timeline, Enterprise-J participated in the Battle of Procyon V, a climactic battle in which the Federation successfully drove the invasive trans-dimensional beings known as the Sphere Builders back into their own realm. The ship's crew included a descendant of the Xindi scientist Degra."
+                android:textColor="#EFEBEB"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

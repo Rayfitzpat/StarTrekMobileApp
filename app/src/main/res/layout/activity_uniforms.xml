@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDADA"
+    tools:context=".Uniforms">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0B0B0B"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="goHide"
+                    android:text="Hide Image"
+                    app:backgroundTint="#753434" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="goShow"
+                    android:text="Show Image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/stalinist_one"
+                android:gravity="center"
+                android:text="Click on the button to hide / show image"
+                android:textColor="#EAE7E7" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="3950dp"
+                app:srcCompat="@drawable/uniforms" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
