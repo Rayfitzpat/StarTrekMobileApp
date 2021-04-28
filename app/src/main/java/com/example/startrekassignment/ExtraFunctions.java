@@ -16,7 +16,7 @@ public class ExtraFunctions extends AppCompatActivity {
 
     public void goToCamera(View view)
     {
-        Intent i = new Intent(ExtraFunctions.this, Camera.class);
+        Intent i = new Intent(ExtraFunctions.this, QRGenerator.class);
         startActivity(i);
     }
 

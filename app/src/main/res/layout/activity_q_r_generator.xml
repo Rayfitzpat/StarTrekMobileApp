@@ -4,6 +4,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/q1"
     tools:context=".QRGenerator">
 
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="302dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center|center_horizontal"
+        android:text="Q's QR Generator"
+        android:textColor="#FBF6F6"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/generateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Generate"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        app:backgroundTint="#F4F2F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qrinput" />
+
+    <EditText
+        android:id="@+id/qrinput"
+        android:layout_width="371dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter Value"
+        android:inputType="textPersonName"
+        android:textColor="#F1EEEE"
+        android:textColorHint="#F8F5F5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <Button
+        android:id="@+id/scanBtn"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:text="Scan"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        app:backgroundTint="#F6F2F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qrPlaceHolder" />
+
+    <ImageView
+        android:id="@+id/qrPlaceHolder"
+        android:layout_width="320dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/generateBtn"
+        tools:srcCompat="@color/browser_actions_title_color" />
 </androidx.constraintlayout.widget.ConstraintLayout>
