@@ -16,7 +16,7 @@ public class ExtraFunctions extends AppCompatActivity {
 
     public void goToCamera(View view)
     {
-        Intent i = new Intent(ExtraFunctions.this, QRGenerator.class);
+        Intent i = new Intent(ExtraFunctions.this, Camera.class);
         startActivity(i);
     }
 
@@ -32,5 +32,9 @@ public class ExtraFunctions extends AppCompatActivity {
         startActivity(i);
     }
 
-
+    public void goToQR(View view)
+    {
+        Intent i = new Intent(ExtraFunctions.this, QRGenerator.class);
+        startActivity(i);
+    }
 }

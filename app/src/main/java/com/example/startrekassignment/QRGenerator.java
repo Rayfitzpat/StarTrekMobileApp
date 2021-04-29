@@ -50,7 +50,7 @@ public class QRGenerator extends AppCompatActivity {
         scanBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),Camera.class));
+                startActivity(new Intent(getApplicationContext(),QRScanner.class));
             }
         });
 
