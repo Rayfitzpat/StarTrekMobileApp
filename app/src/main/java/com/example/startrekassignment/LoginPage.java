@@ -139,7 +139,7 @@ public class LoginPage extends AppCompatActivity {
     }
     public void goToRegister(View view)
     {
-        Intent i = new Intent(LoginPage.this, Register.class);
+        Intent i = new Intent(LoginPage.this, NewRegistration.class);
         startActivity(i);
     }
 }

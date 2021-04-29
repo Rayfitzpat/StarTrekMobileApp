@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView35" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/RegisterName"
         android:layout_width="371dp"
         android:layout_height="43dp"
         android:layout_marginTop="56dp"
@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView36" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/RegisterEmail"
         android:layout_width="365dp"
         android:layout_height="45dp"
         android:layout_marginTop="40dp"
@@ -59,10 +59,10 @@
         android:textColorHint="#FAF7F7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/RegisterName" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/RegisterPassword"
         android:layout_width="365dp"
         android:layout_height="45dp"
         android:layout_marginTop="40dp"
@@ -73,10 +73,10 @@
         android:textColorHint="#F4F1F1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/RegisterEmail" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/RegisterPhone"
         android:layout_width="362dp"
         android:layout_height="47dp"
         android:layout_marginTop="40dp"
@@ -88,7 +88,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/RegisterPassword" />
 
     <Button
         android:id="@+id/button28"
@@ -101,7 +101,7 @@
         app:backgroundTint="#F8F4F4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/RegisterPhone" />
 
     <TextView
         android:id="@+id/textView37"
