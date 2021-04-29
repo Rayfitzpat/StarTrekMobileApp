@@ -33,9 +33,9 @@ import com.google.firebase.auth.FirebaseAuth;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        mFullName = findViewById((R.id.fullName));
-        mEmail = findViewById((R.id.Email));
-        mPassword = findViewById((R.id.password));
+        mFullName = findViewById((R.id.fullName1));
+        mEmail = findViewById((R.id.Email1));
+        mPassword = findViewById((R.id.password1));
         mPhone = findViewById((R.id.phone));
         mRegisterBtn = findViewById((R.id.registerBtn));
         mLoginBtn = findViewById((R.id.createText));

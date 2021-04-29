@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/fullName"
+        android:id="@+id/fullName1"
         android:layout_width="383dp"
         android:layout_height="42dp"
         android:layout_marginBottom="444dp"
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/Email"
+        android:id="@+id/Email1"
         android:layout_width="381dp"
         android:layout_height="47dp"
         android:layout_marginBottom="368dp"
@@ -61,7 +61,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/password1"
         android:layout_width="380dp"
         android:layout_height="46dp"
         android:layout_marginBottom="296dp"
@@ -114,7 +114,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/progressBar1"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

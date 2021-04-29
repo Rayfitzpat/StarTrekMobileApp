@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StarTrekAssignment">
-        <activity android:name=".QRScanner"></activity>
+        <activity android:name=".NewRegistration"></activity>
+        <activity android:name=".QRScanner" />
         <activity android:name=".QRGenerator" />
         <activity android:name=".testPage" />
         <activity android:name=".Register">
