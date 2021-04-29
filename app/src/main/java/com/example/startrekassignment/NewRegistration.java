@@ -2,6 +2,7 @@ package com.example.startrekassignment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -28,6 +29,14 @@ public class NewRegistration extends AppCompatActivity {
         mPhone = findViewById((R.id.RegisterPhone));
         mRegisterBtn = findViewById((R.id.RegisterButton));
         mLoginBtn = findViewById((R.id.RegisterLogin));
+
+        fAuth = FirebaseAuth.getInstance();
+
+//        if(fAuth.getCurrentUser() != null){
+//            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+//            finish();
+//        }
+
 
     }
 }

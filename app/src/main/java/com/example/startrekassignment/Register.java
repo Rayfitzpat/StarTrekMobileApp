@@ -9,7 +9,6 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,7 +24,6 @@ import com.google.firebase.auth.FirebaseAuth;
         Button mRegisterBtn;
         TextView mLoginBtn;
         FirebaseAuth fAuth;
-        ProgressBar progressBar;
 
 
     @Override
@@ -41,12 +39,12 @@ import com.google.firebase.auth.FirebaseAuth;
         mLoginBtn = findViewById((R.id.createText));
 
         fAuth = FirebaseAuth.getInstance();
-//        progressBar = findViewById(R.id.progressBar);
 
-        if(fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
-            finish();
-        }
+
+//        if(fAuth.getCurrentUser() != null){
+//            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+//            finish();
+//        }
 
         mRegisterBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,17 +67,17 @@ import com.google.firebase.auth.FirebaseAuth;
                     return;
                 }
 
-//                progressBar.setVisibility(View.VISIBLE);
+
 
                 fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            Toast.makeText(Register.this, "User Created", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getBaseContext(), "User Created", Toast.LENGTH_LONG).show();
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         }
                         else{
-                            Toast.makeText(Register.this, "Error! "+ task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getBaseContext(), "Error!" + task.getException().getMessage(), Toast.LENGTH_LONG).show();
                         }
                     }
                 });
