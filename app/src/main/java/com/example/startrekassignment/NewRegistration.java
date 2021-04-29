@@ -22,6 +22,12 @@ public class NewRegistration extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_registration);
 
+        mFullName = findViewById((R.id.RegisterName));
+        mEmail = findViewById((R.id.RegisterEmail));
+        mPassword = findViewById((R.id.RegisterPassword));
+        mPhone = findViewById((R.id.RegisterPhone));
+        mRegisterBtn = findViewById((R.id.RegisterButton));
+        mLoginBtn = findViewById((R.id.RegisterLogin));
 
     }
 }
